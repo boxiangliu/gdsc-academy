@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'  # Will update when domain is chosen
+baseURL = 'http://www.boxiangliu.com/gdsc-academy/'
 languageCode = 'en-us'
 title = 'Genomics Data Science Academy'
 theme = 'simple'

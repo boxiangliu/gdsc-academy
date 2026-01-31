@@ -1,0 +1,33 @@
+baseURL = 'https://example.com/'  # Will update when domain is chosen
+languageCode = 'en-us'
+title = 'Genomics Data Science Academy'
+theme = 'simple'
+
+[params]
+  description = "Learn bioinformatics and genomics data science with practical tutorials"
+  author = "Boxiang Liu"
+  featured_image = ""
+  site_logo = ""
+  
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[[menu.main]]
+  name = "Tutorials"
+  url = "/tutorials/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Twitter"
+  url = "https://twitter.com/boxiangliu"
+  weight = 3

@@ -1,4 +1,4 @@
-baseURL = 'http://www.boxiangliu.com/gdsc-academy/'
+baseURL = 'https://boxiangliu.github.io/gdsc-academy/'
 languageCode = 'en-us'
 title = 'Genomics Data Science Academy'
 theme = 'simple'

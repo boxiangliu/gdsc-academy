@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
     <nav>
-        <a href="/">{{ .Site.Title }}</a>
+        <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
         <div class="nav-links">
-            <a href="/tutorials/">Tutorials</a>
+            <a href="{{ "tutorials/" | relURL }}">Tutorials</a>
             <a href="https://twitter.com/boxiangliu" target="_blank">Twitter</a>
             <a href="https://www.boxiangliulab.com" target="_blank">Lab</a>
         </div>
